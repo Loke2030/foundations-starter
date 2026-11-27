@@ -1,0 +1,117 @@
+README.md
+CSC 110 Final Project — Prototype I
+
+1. Homework Design: Nested Loops
+Project Description
+This homework requires students to write a program to set up a system that can be used to separate students into groups.
+Students will learn and practice how to use nested loops and conditionals.
+This expected system involves 4 tasks:
+
+【1】Ask users to enter 20 student names and check whether the number of students is correct.
+
+【2】Randomly divide the students into five groups of four for the first round.
+
+【3】Ask users whether they want to continue or end the program.
+
+【4】Generate up to five rounds of grouping without repeating any pair of students.
+
+
+
+
+Learning Outcomes
+By completing this homework, students will be able to:
+
+
+【1】Use nested loops to process nested lists.
+
+【2】Understand how inner and outer loops work together.
+
+【3】Use indices to access elements in a two-dimensional list.
+
+【4】Use the modulo operator to calculate indices.
+
+【5】Understand when and how to use while loops and conditionals.
+
+【6】Practice using functions.
+
+【7】Understand how to organize functions and use the main function.
+
+
+
+
+How to Run the Code
+
+【1】Open Homework.py in Thonny.
+
+【2】Click the Run button.
+
+【3】Enter 20 student names separated by commas and space.
+
+【4】The program will display the first round of grouping.
+
+【5】Enter y to generate the next round or n to end the program.
+
+【6】The program allows a maximum of five rounds.
+
+
+
+
+
+2. In-Class Activity Design: Conditions
+
+Activity Description
+
+This activity asks students to calculate movie ticket prices based on different discount conditions. 
+Students are required to discuss and write a program that can decide how much money people should pay 
+after asking them to enter their age, height, and whether they qualify for a disability discount 
+("Do you qualify for a disability discount? (y/n):").
+In the process of doing this activity, students will learn and practice how to set the order of conditional statements 
+and how to write specific conditions. This activity also involves 2 small tasks to help students address their misconceptions. 
+For task 1, students are given some code examples including different use of == and  =, 
+and they are required to determine whether the use is correct and correct it if it is misused. 
+For task 2, students are given a special example of someone who satisfied 2 conditions. 
+They are asked to think about the order and priority of conditions, 
+explaining why only one branch can execute and why the order of conditions is important in deciding the ticket price.
+
+
+
+Mistakes and Misconceptions
+This activity addresses the following common mistakes:
+
+【1】Confusing if and elif.
+
+【2】Not understanding the order of conditions.
+
+【3】Confusing the assignment operator (=) and the equality operator (==).
+
+【4】Using incorrect comparison operators.
+
+【5】Confusing and and or.
+
+【6】Not considering situations where multiple conditions are true.
+
+
+
+
+
+How to Run the Code
+
+【1】Open In-Class Activity. py in Thonny.
+
+【2】Click the Run button.
+
+【3】Enter the regular ticket price, age, height, and disability discount eligibility.
+
+【4】The program will calculate and display the final ticket price.
+
+
+
+
+Activity Materials
+The activity materials include:
+
+【1】Student exercise and prompts.
+
+【2】Example solution.
+
+【3】Instructor outline.
