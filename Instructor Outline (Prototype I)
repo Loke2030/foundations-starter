@@ -1,0 +1,57 @@
+Brief outline of activity:
+
+【1】Students are given the requirement and details about building a system to calculate the actual price of movie tickets based on user’s age, 
+height and disable status. 
+
+【2】Students are encouraged to discuss with their neighbor and write the code plan together. 
+They are asked to come up with different solutions as many as possible. 
+
+【3】After finishing the code, professors will show how to write this code. Students are encouraged to show their different solutions.
+
+【4】Students are given a bunch of practice that involve different use of == and =. “or” and “and”. 
+They are required to justify which one is incorrect and debug it. 
+
+【5】Students are given a special example which can satisfy at least 2 conditions. 
+They are required to explain the order of conditions, and whether it matters deciding the prices.
+
+
+
+
+
+Main Exercise — Movie Ticket Pricing
+
+Write a program that calculates movie ticket prices based on the following rules:
+
+Age 6 or younger: free ticket.
+
+Height 1.2 meters or below: free ticket.
+
+Eligible for a disability discount: 50% off.
+
+Otherwise: regular price.
+
+Ask for entering the original price of movie tickets first. If multiple discounts apply, use the lowest applicable ticket price.
+
+
+Task 1 — Identify and Correct Mistakes
+
+Determine whether the following statements are correct. Correct them if necessary.
+
+【1】if age = 6:
+
+【2】ticket_price == regular_price
+
+【3】Explain the difference between these two conditions. Which one matches the ticket pricing rules?
+
+if age <= 6 or height <= 1.2:
+
+if age <= 6 and height <= 1.2:
+
+
+
+
+Task 2 — Order of Conditions
+
+A customer is 6 years old and qualifies for a disability discount. The regular ticket price is $12.What should the final ticket price be?
+What would happen if the disability discount condition appeared before the age condition in an if-elif-else structure?
+Explain why the order of conditions matters.
